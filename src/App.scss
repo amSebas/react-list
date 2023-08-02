@@ -1,11 +1,15 @@
 html {
-  background: #1e9484;  
   height: 100%;
   display: flex;
 }
 body {
+  background: #dfdfdf;  
   width: 100%;
   margin: auto;
+}
+
+body.active{
+  background: #212121;
 }
 
 .App {
@@ -23,6 +27,16 @@ body {
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
 }
 
+#container{
+  margin: 20px;
+  background: #414141;
+  position: relative;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #ffffff;
+}
 
 /** BUTTONS*/
 $colorPink: #e95678;
